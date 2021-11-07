@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="header-menu" id="headerMenu">
+        <nav class="header-menu__nav">
+            <a href="" class="header-menu__a">Lorem, ipsum.</a>
+            <a href="" class="header-menu__a">Lorem ipsum dolor sit.</a>
+            <a href="" class="header-menu__a">Lorem, ipsum dolor.</a>
+            <a href="" class="header-menu__a">Lorem ipsum dolor sit amet.</a>
+            <a href="" class="header-menu__a">Lorem.</a>
+        </nav>
+    </div>
+    <header class="header" id="header">
+        <div class="header__logo" id="headerLogo"></div>
+        <button class="header__button-menu" id="headerButtonMenu"></button>
+    </header>
+
+    </div>
+    <aside class="aside">
+        <nav class="aside__nav">
+            <div class="aside__wrap">
+                <h4 class="aside__h4" tabindex="0" id="showUsers">Show Users</h3>
+            </div>
+            <div class="aside__wrap">
+                <h4 class="aside__h4" tabindex="0" id="showGet">Get user</h3>
+            </div>
+            <div class="aside__wrap">
+                <h4 class="aside__h4" tabindex="0" id="showCreate">Create user</h3>
+            </div>
+            <div class="aside__wrap">
+                <h4 class="aside__h4" tabindex="0" id="showUpdate">Update user</h3>
+            </div>            
+            <div class="aside__wrap">
+                <h4 class="aside__h4" tabindex="0" id="showDelete">Delete user</h3>
+            </div>
+            <div class="aside__wrap__end">
+                <h5 class="aside__h4-About" tabindex="0" id="showAbout">about us</h5>
+            </div>
+        </nav>
+    </aside>
+    <section class="section" id="showUsersSection">
+        <h3 class="section__h3">Users list</h3>
+        <div class="section__table">
+            <section class="section__table__header">
+                <h4 class="section__table__h4" tabindex="0">id</h4>
+                <h4 class="section__table__h4" tabindex="0">name</h4>
+                <h4 class="section__table__h4" tabindex="0">email</h4>
+                <h4 class="section__table__h4" tabindex="0">password</h4>
+                <h4 class="section__table__h4 section__table__h4_padding-status" tabindex="0">status</h4>
+                <h4 class="section__table__h4 section__table__h4_padding-action" tabindex="0">action</h4>
+            </section>
+            <section class="section__table__main">
+                <h4 class="section__table__h4" tabindex="0">1</h4>
+                <h4 class="section__table__h4" tabindex="0">Maksim</h4>
+                <h4 class="section__table__h4" tabindex="0">some@gmail.com</h4>
+                <div class="section__table__password">
+                    <h4 class="section__table__h4" tabindex="0">********</h4>
+                    <img src="./images/imgTwo.svg" alt="show password" class="section__table__password__icon-show">
+                </div>
+                <h4 class="section__table__h4 section__table__h4_style-active" tabindex="0">Active</h4>
+                <div class="section__table__main__button-menu">
+                    <button class="section__table__h4 section__table__button" id="buttonActionUsers" tabindex="0">Action</button>
+                    <div class="section__table__main__button-menu__menu" id="buttonActionMenuUsers">
+                        <h4 class="section__table__main__button__h4">Delete</h4>
+                        <div class="section__table__main__button__line"></div>
+                        <h4 class="section__table__main__button__h4">Update</h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="section-get" id="showGetSection">
+        <h3 class="section__h3">Get user by id</h3>
+        <section class="table-find-id">
+            <form action="#" class="table-find-id__form">
+                <input type="text" class="table-find-id__form__text" placeholder="Write user id">
+                <input type="submit" class="table-find-id__form__submit" value="Show">
+            </form>
+        </section>
+        <div class="section-get__table">
+            <section class="section__table__header">
+                <h4 class="section__table__h4" tabindex="0">id</h4>
+                <h4 class="section__table__h4" tabindex="0">name</h4>
+                <h4 class="section__table__h4" tabindex="0">email</h4>
+                <h4 class="section__table__h4" tabindex="0">password</h4>
+                <h4 class="section__table__h4 section__table__h4_padding-status" tabindex="0">status</h4>
+                <h4 class="section__table__h4 section__table__h4_padding-action" tabindex="0">action</h4>
+            </section>
+            <section class="section__table__main">
+                <h4 class="section__table__h4" tabindex="0">1</h4>
+                <h4 class="section__table__h4" tabindex="0">Maksim</h4>
+                <h4 class="section__table__h4" tabindex="0">some@gmail.com</h4>
+                <div class="section__table__password">
+                    <h4 class="section__table__h4" tabindex="0">********</h4>
+                    <img src="./images/imgTwo.svg" alt="show password" class="section__table__password__icon-show">
+                </div>
+                <h4 class="section__table__h4 section__table__h4_style-active" tabindex="0">Active</h4>
+                <div class="section__table__main__button-menu">
+                    <button class="section__table__h4 section__table__button" id="buttonActionGet" tabindex="0">Action</button>
+                    <div class="section__table__main__button-menu__menu" id="buttonActionMenuGet">
+                        <h4 class="section__table__main__button__h4">Delete</h4>
+                        <div class="section__table__main__button__line"></div>
+                        <h4 class="section__table__main__button__h4">Update</h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="section-create" id="showCreateSection">
+        <h3 class="section__h3">Create User</h3>
+        <form action="#" class="section-create__form">
+            <input type="text" class="section-create__form__input" placeholder="Username">
+            <input type="text" class="section-create__form__input" placeholder="Email">
+            <input type="password" class="section-create__form__input section-create__form__input_margin" placeholder="Password">
+            <input type="submit" class="section-create__form__create" value="CREATE">
+        </form>
+    </section>
+    <section class="section-create" id="showUpdateSection">
+        <h3 class="section__h3">Update User</h3>
+        <form action="#" class="section-create__form">
+            <input type="text" class="section-create__form__input" placeholder="Username">
+            <input type="text" class="section-create__form__input" placeholder="Email">
+            <input type="password" class="section-create__form__input section-create__form__input_margin" placeholder="Password">
+            <input type="submit" class="section-create__form__create" value="UPDATE">
+        </form>
+    </section>
+    <section class="section-get" id="showDeleteSection">
+        <h3 class="section__h3">Delete user by id</h3>
+        <section class="table-find-id">
+            <form action="#" class="table-find-id__form">
+                <input type="text" class="table-find-id__form__text" placeholder="Write user id">
+                <input type="submit" class="table-find-id__form__submit" value="Delete">
+            </form>
+        </section>
+    </section>
+    <section class="section-about" id="showAboutSection">
+        <h3 class="section__h3">About us</h3>
+        <section class="section-about__wrap" id="sectionAboutWrap1">
+            <div class="section-about__wrap__header" id="sectionAboutWrapHeader1">
+                <h3 class="section-about__wrap__h3">Testing question</h3>
+                <img src="./images/imgThree.svg" alt="Arrow" class="section-about__wrap__arrow" id="sectionAboutWrapArrow1">
+            </div>
+            <p class="section-about__wrap__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+        </section>
+        <section class="section-about__wrap" id="sectionAboutWrap2">
+            <div class="section-about__wrap__header" id="sectionAboutWrapHeader2">
+                <h3 class="section-about__wrap__h3">Testing question</h3>
+                <img src="./images/imgThree.svg" alt="Arrow" class="section-about__wrap__arrow" id="sectionAboutWrapArrow2">
+            </div>
+            <p class="section-about__wrap__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
