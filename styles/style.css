@@ -137,6 +137,7 @@ body {
 
 .aside__h4-About:hover {
     color: #41AAE6;
+    cursor: pointer;
 }
 
 .aside__h4-About:focus {
@@ -145,6 +146,7 @@ body {
 
 .aside__h4:hover {
     color: #41AAE6;
+    cursor: pointer;
 }
 
 .aside__h4:focus {
