@@ -315,6 +315,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     padding: 12px 15px;
+    width: 100%;
 }
 
 .section-create__form__input::placeholder {
