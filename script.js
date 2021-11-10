@@ -56,7 +56,7 @@ document.body.addEventListener ( 'click' , event => {
                 event.target.style.transform = 'rotate(180deg)' ;
             }
             else {
-                sectionAboutWrap.style.height = aboutWrapHeight[event.target.id] ;
+                sectionAboutWrap.style.height = aboutWrapHeight[event.target.id] ;                
                 event.target.style.transform = 'rotate(0deg)' ;
             }
         break ;
