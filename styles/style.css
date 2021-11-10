@@ -143,12 +143,16 @@ body {
 
 .aside__h4-About:hover {
     color: #41AAE6;
+    cursor: pointer;
 }
 
 .aside__h4-About:focus {
     color: #41AAE6;
 }
 
+.aside__h4:hover {
+    color: #41AAE6;
+}
 .aside__h4:focus {
     color: #41AAE6;
     border-bottom: 4px solid #3A69E1;
@@ -330,6 +334,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     padding: 12px 15px;
+    width: 100%;
 }
 
 .section-create__form__input::placeholder {
