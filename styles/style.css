@@ -245,7 +245,6 @@ body {
     cursor: pointer;
 
     transition-duration: 0.2s;
-    transition-timing-function: linear;
 }
 
 .section__table__button:hover {
@@ -474,7 +473,6 @@ body {
     cursor: pointer;
 
     transition-duration: 0.2s;
-    transition-timing-function: linear;
 }
 
 .section-about__wrap__p {
